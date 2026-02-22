@@ -3,10 +3,10 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: cp4i-253015-1ea39f2197613090e80c4981ab6eab96-0000.eu-de.containers.appdomain.cloud
+  API_HOST: us-east-a.apiconnect.automation.ibm.com
   # platform_api_prefix is not required to change for ApiConnect on Cloud
   PLATFORM_API_PREFIX: platform-api
-  PROVIDER_ORG: apic10
+  PROVIDER_ORG: api-connect-dk
   INSECURE_SKIP_TLS_VERIFY: True
   API_FILES: APIfolder/api-with-examples.yaml
   #API_FOLDERS: APIfolder,APIfolderTwo
